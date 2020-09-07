@@ -1,0 +1,29 @@
+{
+  "name": "krzysztofrewak/php-cs-double-quote-fixer",
+  "type": "library",
+  "description": "Convert single quotes to double quotes for simple strings.",
+  "keywords": [
+    "PHP-CS-Fixer",
+    "double quotes"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Krzysztof Rewak",
+      "homepage": "https://github.com/krzysztofrewak/"
+    },
+    {
+      "name": "Marcel Pociot",
+      "homepage": "https://github.com/mpociot/"
+    }
+  ],
+  "require": {
+    "php": "^7.3",
+    "friendsofphp/php-cs-fixer": "^2.16"
+  },
+  "autoload": {
+    "psr-4": {
+      "KrzysztofRewak\\PhpCsFixer\\DoubleQuoteFixer\\": "src/"
+    }
+  }
+}
